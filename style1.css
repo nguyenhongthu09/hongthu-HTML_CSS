@@ -533,24 +533,20 @@
 
 .list-store{
     background-color: #f7f6fd;
-height: 350px;
 }
 .store-detail-main{
   display: flex;
   justify-content: space-between;
+  padding: 20px 0px;
 }
 .store-detail{
 background-color: white;
-width: 472px;
+width: 520px;
 height: 350px;
-margin-right: 36px;
 
 }
 .detail-product{
-  height: 370px;
-  width: 380px;
-    /* margin-left: 20px; */
-    text-align: center;
+  /* width: 518px; */
 }
 .text-product{
     text-align: center;
@@ -559,75 +555,73 @@ margin-right: 36px;
     font-weight: 600;
 }
 .img-product{
-  padding-left: 25px;
+ padding-left: 33px;
    display: flex;
-   box-shadow: 0px 20px 10px antiquewhite;
+   /* box-shadow: 0px 20px 10px antiquewhite; */
 }
 .img-product1{
     width: 300px !important;
+    box-shadow: 0px 20px 10px antiquewhite;
 }
 .img-product2{
     position: relative;
     visibility: visible;
-    /* left: -6%; */
-    /* margin-top: 17px; */
+    box-shadow: 0px 20px 10px antiquewhite;
     transform: translate(-30px, 10px);
 }
 .img-product-3{
-  width: 300px;
+  width: 284px;
   height: 300px;
+  padding: 0 5px;
 }
 .img-product-4{
-  width: 350px;
+  width: 365px;
     height: 300px;
+    padding: 0 10px;
 }
 .store-detail-1{
   background-color: white;
-width: 274px;
-/* margin-left: 40px; */
+width: 280px;
 height: 350px;
-margin-right: 36px;
+
 }
 .store-detail-2{
   background-color: white;
-width: 370px;
+width: 410px;
 height: 350px;
 }
 .store-detail-main{
-  /* width: 89%; */
 }
 .store-detail-main-1{
-  padding: 20px 10px;
   display: flex;
-  width: 89%;
+justify-content: space-between;
+padding: 20px 0px;
 }
 .store-detail-3{
   background-color: white;
-width: 370px;
-/* margin-left: 50px; */
+width: 410px;
 height: 350px;
 
 }
 .store-detail-2-bg{
   background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-pro-shopify/images/lending/dev/img_09.png);
-  width: 370px;
-  margin-left: 40px;
+  width: 410px;
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .store-detail-main-2{
   display: flex;
-  width: 89%;
-  padding: 20px 20px;
+ justify-content: space-between;
+ padding: 20px 0px;
 }
 .size{
-  width: 260px;
+  width: 300px;
    
 }
 .wi{
   width: 250px; 
-  padding:0px 15px;
+  padding: 0px 15px
 }
 .background{
 background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-pro-shopify/images/lending/dev/img_14.png);
@@ -647,25 +641,25 @@ background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-p
   background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-pro-shopify/images/lending/dev/img_24.png);
 }
 .sz{
-  width: 360px !important;
-  height: 300px !important;
+  width: 454px !important;
+  height: 255px !important;
  
 }
 
 .kt{
-  width: 300px;
-  height: 180px;
+ 
 box-shadow: 0 0 0;
 
 }
 .man{
-  padding: 5px 25px;
+ 
   width: 250px !important;
   height: 280px !important;
+  padding: 5px 16px;
 }
 .soon{
-  padding: 12px;
-    width: 345px;
+  padding: 15px;
+    width: 380px;
     height: 325px
 }
 .ani{
