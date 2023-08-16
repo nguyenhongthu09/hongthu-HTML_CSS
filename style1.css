@@ -585,6 +585,7 @@ padding: 20px 0px;
 }
 .section5 .section5-text-center span{
  color: var(--grayXam);
+ font-size: var(--font14);
  font-weight: 300;
 }
 .section5 .section5-list-row{
@@ -598,14 +599,15 @@ padding: 20px 0px;
 }
 .section5 .text-list{
   padding-left: 15px;
-  
 }
 .section5 .detail-list-img{
   width: 50px;
   height: 50px;
 }
 .section5 .text-list p{
+  padding-top: 10px;
  font-size: var(--font14);
+ color: var(--grayXam);
 }
 .section6{
   padding: 50px 0px;
@@ -623,6 +625,7 @@ padding: 20px 0px;
 .section6 .section6-text-center span{
   font-size: var(--fontTieude);
   color: var(--grayXam);
+  padding-bottom: 15px;
 }
 .section6 .table-row{
   text-align: center;
@@ -735,18 +738,22 @@ padding: 20px 0px;
   cursor: pointer;
 }
 .section7 .section7-tablink-btn-gray{
+  position: relative;
+  bottom: -25px;
   display: flex;
    background-color: #EEE8FE ;
   align-items: center;
   padding: 0 35px;
   width: 200px;
-  height: 70px;
+  height: 90px;
   border-radius: 5px;
   border: 1px solid #E9E9F3;
   margin-right: 25px;
 }
 
 .section7 .section7-tablink-btn{
+  position: relative;
+  bottom: -25px;
   background-color: var(--white);
    display: flex;
   align-items: center;
