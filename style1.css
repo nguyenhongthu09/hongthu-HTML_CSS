@@ -880,6 +880,10 @@ padding-top: 60px;
 .footer .footer-menu-items{
   list-style: none;
 }
+.footer .footer-menu-item a:hover{
+  color: var(--blue) !important;
+  
+}
 .footer .footer-menu-item{
   padding: 6px 0px;
 }
@@ -893,7 +897,7 @@ padding-top: 60px;
   word-break: break-word;
   width: 414px;
     padding: 20px 0px;
-    color: var(--black);
+    color: var(--grayXam);
     font-size: var(--font16);
 }
 .footer .foooter-menu-item-email span{
@@ -903,8 +907,11 @@ padding-top: 60px;
 .footer .foooter-menu-item-email a{
   text-decoration: none;
   font-size: var(--font18);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--blue);
+}
+.footer .foooter-menu-item-email a:hover{
+  color: #0d0aaa;
 }
 .footer .footer-items-icon{
   padding-top: 30px;
