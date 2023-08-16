@@ -1,0 +1,24 @@
+:root {
+    --blue: #504de2;
+    --blueNhat : #07c2ff;
+    --white: #ffffff;
+    --backgroundColor: #f7f6fd;
+    --pink :#f8407e;
+    --white: white;
+    --grayXam: #797a84;
+    --black: black;
+    --mauLuc: #95bf46;
+    --blueDam : #211eb9;
+  }
+.container{
+    --font14: 14px;
+    --fontTieude: 24px;
+    --font18:18px;
+    --font11 : 11px;
+    --font60: 60px;
+    --font21: 21px;
+    --font30 : 30px;
+    --font48: 48px;
+    --font28: 28px;
+    --font16: 16px;
+}
