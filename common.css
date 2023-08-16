@@ -4,12 +4,13 @@
     padding: 12px 20px;
     border-radius: 5px;
     border: none;
-    font-size: var(--font18);
+    font-size: var(--font17);
+   
   }
-  .hover button:hover{
+  .btn-hover:hover{
     background-color: var(--black);
     cursor: pointer;
-}
+  }
 .color-btn-blue{
     background-color: var(--blue);
     color: var(--white);
@@ -35,8 +36,4 @@
   .wi{
     width: 250px; 
     padding: 0px 15px
-  }
-  .footer-copyright{
-    font-size: var(--font16);
-    font-weight: 300;
   }

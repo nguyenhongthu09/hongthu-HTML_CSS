@@ -9,6 +9,7 @@
     --black: black;
     --mauLuc: #95bf46;
     --blueDam : #211eb9;
+    --black-100: #202232;
   }
 .container{
     --font14: 14px;
@@ -21,4 +22,8 @@
     --font48: 48px;
     --font28: 28px;
     --font16: 16px;
+    --font17: 17px;
+    --font15: 15px;
+    --font20:20px;
+    --font13: 13px;
 }
