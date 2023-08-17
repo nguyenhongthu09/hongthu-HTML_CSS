@@ -881,11 +881,9 @@ position: absolute;
   height: 207px;
  
 }
-.footer{
-  padding-top: 183px;
-}
 .footer .footer-menu{
   background-color: #f7f6fd;
+  padding-top: 183px;
 }
 .footer .row{
   display: flex;
@@ -941,10 +939,16 @@ padding-top: 100px;
 .footer .footer-items-icon{
   padding-top: 30px;
   display: flex;
+  align-items: center;
 }
 .footer .icon-facebook{
   width: 25px;
   height: 25px;
+padding-right: 20px;
+}
+.icon-linkedin{
+  width: 35px;
+  height: 35px;
 padding-right: 20px;
 }
 .footer-copyright{
