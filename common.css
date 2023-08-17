@@ -25,6 +25,11 @@
 .background-white{
     background-color: var(--white);
 }
+.background-white1{
+  background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-pro-shopify/images/lending/dev/img_03.png);
+  background-repeat: no-repeat;
+    background-size: cover;
+}
 .background-url{
     background: url(https://documentation.zemez.io/shopify/vendy_pro/landing/vendy-pro-shopify/images/lending/dev/img_09.png);
     background-size: cover;

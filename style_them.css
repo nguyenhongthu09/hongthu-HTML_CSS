@@ -8,9 +8,9 @@
     width: 289px;
 }
 .section2-content-list-grid{
-    padding: 20px;
+    padding: 20px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 40px;
+    grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
