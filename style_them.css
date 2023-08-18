@@ -1,6 +1,4 @@
-#header{
-    height: 64px;
-}
+
 .section1-large{
     padding: 0px 20px;
 }
@@ -11,6 +9,6 @@
     padding: 20px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
     grid-row-gap: 30px;
 }
