@@ -39,16 +39,19 @@
   transition: 0.3s;
   z-index: 2;
 }
-
+.dropdown_btn{
+  position: relative;
+}
 #header .support {
   background-color: #fff;
   display: none;
   flex-direction: column;
   position: absolute;
-  left: 583px;
+  left: 0;
   padding-left: 17px;
   padding-top: 20px;
   z-index: 1;
+  width: 100%;
 }
 #header .color-text {
   font-size: var(--font13) !important;

@@ -7,7 +7,7 @@
     padding: 3px 20px;
   }
   #header .support {
-    left: 265px;
+    /* left: 265px; */
   }
   #header #navbar-menu-ul li a {
     font-size: 13px;
@@ -228,11 +228,10 @@
 
   .navbar-menu {
     z-index: 1;
-    width: 130px;
+    width: 150px;
     background-color: var(--white);
     color: #fff;
     position: fixed;
-    top: 106px;
     transition: left 0.3s ease;
   }
 
@@ -252,7 +251,7 @@
   #header .support {
     z-index: -1;
     padding-top: 5px;
-    left: 5px;
+    /* left: 5px; */
     position: relative;
   }
   #header .color-text {
