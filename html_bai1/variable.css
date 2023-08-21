@@ -1,14 +1,13 @@
 :root {
     --blue: #504de2;
-    --blueNhat : #07c2ff;
+    --blue-100 : #07c2ff;
     --white: #ffffff;
-    --backgroundColor: #f7f6fd;
+    --white-500: #f7f6fd;
     --pink :#f8407e;
-    --white: white;
-    --grayXam: #797a84;
+    --gray: #797a84;
     --black: black;
-    --mauLuc: #95bf46;
-    --blueDam : #211eb9;
+    --green-100: #95bf46;
+    --blue-500 : #211eb9;
     --black-100: #202232;
   }
 .container{
