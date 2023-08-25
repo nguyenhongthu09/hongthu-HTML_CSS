@@ -14,7 +14,8 @@
   img{
     display: inline-block;
     width: 100%;
-    height: auto;
+    height: auto; 
+    
   }
   .icon-header{
     height: 20px;
