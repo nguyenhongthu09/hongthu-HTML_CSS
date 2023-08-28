@@ -4,7 +4,7 @@
     font-family: var(--font-family);
   }
   .container {
-   width: 100%;
+   max-width: 100%;
     margin: 0 auto;
   }
   .container-section2 {
@@ -37,10 +37,6 @@
 }
 .menu-icon{
     padding-right: 10px;
-}
-.header-menu-bottom{
-    padding: 25px 0px 20px 20px;
-    position: relative;
 }
 .menu-icon-bottom{
     width: 35px;

@@ -1,0 +1,41 @@
+@media screen and (max-width: 1400px){
+    .footer-bottom{
+        padding: 10px 25px 10px 25px;
+    }
+    .footer-bottom-text-left{
+        font-size: 14px;
+    }
+    .img-footer img{
+        height: 33px;
+    }
+    .footer-items-collection h3 {
+        font-size: 15px !important;
+    }
+    .footer-list-items a {
+        padding-bottom: 15px;
+        font-size: 14px !important;
+    }
+    .text-sign{
+        font-size: 20px !important;
+    }
+    .footer-input-form input {
+        padding: 12px 11px;
+        font-size: 14px;
+    }
+    .footer-input-form svg{
+        width: 20px;
+        height: 20px;
+        right: 10%;
+        top: 45%;
+    }
+    .list-icon-connect img {
+        width: 17px;
+        height: 17px;
+    }
+    .list-icon-connect a {
+        padding-right: 5px;
+    }
+    .footer-top{
+        height: 200px;
+    }
+}

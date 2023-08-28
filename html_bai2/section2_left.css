@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
 
 }
 .section1-main span{
@@ -39,7 +40,6 @@
 }
 .section2-right{
    flex-basis: 80%;
-   padding-right: 130px;
 }
 .title-product-type{
     display: flex;
@@ -107,7 +107,7 @@
 }
 .item-button-size button{
     background-color: var(--white);
-    border: 1px solid var(--black-100);
+    border: 1px solid var(--white-100);
     width: 50px;
     height: 40px;
     margin-right: 20px;
@@ -145,14 +145,14 @@
     border-bottom: 3px solid black;
     position: absolute;
     top: -1px;
-    width: 54%;
-    left: 70px;
+    width: 100%;
+    left: 0px;
 }
 .chamtron1{
-    left: 66px;
+    left: 0px;
 }
 .chamtron2{
-    right: 117px;
+    right: 0px;
 }
 .prices-items{
     margin-top: 15px;
