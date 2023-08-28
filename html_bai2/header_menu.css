@@ -223,3 +223,15 @@
   display: none;
   box-shadow: 0px 10px 25px rgba(71, 92, 133, 0.1);
 }
+.headers-menu-lg-1024{
+  display: none;
+}
+.list-demo,
+.list-sale,
+.list-shop,
+.list-products,
+.list-pages,
+.list-blogs,
+.list-features {
+  height: 50px;
+}

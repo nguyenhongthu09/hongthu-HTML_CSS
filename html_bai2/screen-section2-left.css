@@ -1,8 +1,7 @@
 @media screen and (max-width: 1600px) {
   .section2-left {
     padding: 0px 20px;
-    max-width: 330px;
-    min-width: 330px;
+   
   }
   .item-button-size ul {
     display: grid;
@@ -93,3 +92,59 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (max-width: 992px) {
+  .section2-main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section2-left{
+    width: 95%;
+  }
+  .item-button-size ul{
+    display: flex;
+  }
+  .item-button-size li{
+    padding-right: 10px;
+  }
+  .button-active{
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+  }
+  .button-active:hover{
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+  }
+  .item-colors ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .item-colors ul{
+    width: 100%;
+  }
+  .item-color-detail{
+  margin-right: 15px;
+  }
+ 
+  .section2-left{
+    width: 92%;
+  }
+}
+@media screen and (max-width: 767px){
+  .section2-left{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 410px){
+  .section2-left {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 320px){
+  .item-button-size ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+}
+
