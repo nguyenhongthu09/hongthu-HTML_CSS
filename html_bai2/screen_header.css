@@ -363,11 +363,11 @@
   .icon-mui-ten {
     cursor: pointer;
   }
-  #check-list:checked ~ .items-demos-ds {
+  #check-list:checked ~ .items-demos-danhsach {
     display: block;
   }
 
-  .items-demos-ds {
+  .items-demos-danhsach {
     position: absolute;
     z-index: 0;
     background-color: white;
@@ -419,10 +419,16 @@
     top: 25%;
     transform: rotate(90deg);
   }
-  #back-to-items:checked ~ .items-demos-ds {
-    display: none;
-  }
-  #back-to-items:checked ~ .backto-item {
-    visibility: hidden;
-  }
+    .backto-item{
+        visibility: hidden;
+    }
+    #check-list:checked ~ .backto-item{
+        visibility: inherit;
+    }
+    #back-to-items:checked ~ .items-demos-danhsach{
+        display: none;
+    }
+    #back-to-items:checked ~ .backto-item{
+        visibility: hidden;
+    }
 }
