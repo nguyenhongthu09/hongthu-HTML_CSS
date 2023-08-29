@@ -214,7 +214,21 @@
     top: 0;
     bottom: 0;
     right: 0;
+    animation-name:move_right;
+    animation-duration:0.2s; 
   }
+  @keyframes move_right{
+    0%{left:-100px;}
+    100%{left:0px;}
+}
+.items-demos-danhsach{
+  animation-name: move_left;
+  animation-duration: .2s;
+}
+@keyframes move_left{
+  0%{left:100px;}
+  100%{left:0px;}
+}
   .icon-menu-header-wrap:hover {
     cursor: pointer;
   }

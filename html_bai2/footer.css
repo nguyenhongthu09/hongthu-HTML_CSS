@@ -84,3 +84,6 @@
 .footer-nav-menu-ms-992{
     display: none;
 }
+.enter-email:focus{
+    outline: none;
+}
