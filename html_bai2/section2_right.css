@@ -154,19 +154,15 @@
     color: var(--white);
 }
 .products-img:hover .list-btns {
-    z-index: 1;
-    animation: left 1s ease-in-out;
+    z-index: 0;
+    animation: left .5s ease-in-out;
      
    }
 @keyframes left{
     0%{
-       
-     transform: translatex(-100%);
+       left: 0%;
     }
-    50%{
-       
-     transform: translateX(-50%);
-    }
+   
  }
 
  .list-icons {
