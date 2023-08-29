@@ -1,34 +1,53 @@
-.header-menu-top{
-  /* padding: 22px 80px; */
-}
+
 .menu-top-left{
-    padding: 0px 100px;
+    padding: 0px 245px;
+}
+.header-menu {
+  padding: 10px 0px;
+}
+.menu-top-sticky{
+    display: contents;
 }
 .header-menu-bottom {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+  box-shadow: 0px 10px 25px rgba(71, 92, 133, 0.1);
+
+}
+.icon-menu-top-right{
   position: relative;
 }
 .menu-top-right{
-  padding: 15px 280px;
+
+  top: 0;
+  padding: 10px 255px;
 }
 
-.header-menu {
-  padding: 20px 0px;
-}
 
+.usd-pp{
+  padding-left: 5px;
+}
+.fl-1m{
+  padding-right: 10px;
+}
+.menu-icon-header svg{
+      width: 13px;
+      height: 13px;
+}
 .row ul li {
   list-style: none;
 }
 .row a {
-  font-size: var(--font18);
+  font-size: var(--font14);
   color: var(--black-200);
   font-weight: var(--font-weight-500);
 }
 .item-list {
-  padding-top: 10px;
   display: none;
   position: absolute;
   z-index: 1;
-  margin-left: -23px;
   background-color: var(--white);
 }
 .col-menu-top a:hover {
@@ -72,14 +91,14 @@
 }
 
 .item-list a {
-  font-size: var(--font16);
+  font-size: var(--font14);
   color: var(--black-100);
 }
 .usd-item li{
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
 }
 .item-list li {
-  padding: 8px 0px;
+  padding: 8px 7px;
 }
 
 .row a {
@@ -97,13 +116,19 @@
 .col-lg-3 li {
   padding: 0px 10px;
 }
+.menu-top-header li{
+    padding: 0px 15px;
+}
+.icon-menu-top-right li{
+  padding-right: 3px;
+}
 .col-menu-top li {
-  padding: 0px 25px;
+  /* padding: 0px 25px; */
 }
 .col-lg-6-menu a {
-  font-size: 19px;
+  font-size: 16px;
   color: var(--black);
-  font-weight: 500;
+  font-weight: 600;
 }
 .color-red {
   color: var(--red) !important;
@@ -122,13 +147,16 @@
 }
 .text-box-collection {
   position: absolute;
-  left: 25px;
-  bottom: 11px;
+  left: 15px;
+  bottom: 7px;
 }
 .text-box-search {
   position: absolute;
   left: 11px;
-  bottom: 11px;
+  bottom: 8px;
+}
+.search svg{
+  padding-left: 8px;
 }
 .text-box-left {
   left: 10px;
@@ -137,11 +165,11 @@
   left: 6px;
 }
 .text-box-cart {
-  left: 15px;
+  left: 12px;
 }
 .text-box-login {
   position: absolute;
-  bottom: 12px;
+  bottom: 9px;
 }
 
 .menu-shop-list {

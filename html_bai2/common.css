@@ -28,7 +28,7 @@
 
   }
   .col-6{
-    padding: 0px 20px;
+    padding: 0px 10px;
    
 }
 .align-center{
@@ -52,22 +52,27 @@
   stroke: green !important;
 }
 .hg-w-collection{
-  width: 129px;
-  height: 38px;
-  left: -44px;
+  width: 95px;
+  height: 29px;
+  left: -33px;
+}
+.hg-w-product{
+  width: 117px;
+  height: 29px;
+  left: -33px;
 }
 .hg-w-login{
-  width: 67px;
-    height: 40px;
-    left: -24px
+  width: 52px;
+  height: 32px;
+  left: -17px;
 }
 .before-collection{
   position: absolute;
   color: var(--white);
   background-color: var(--black-300);
   border-radius: 5px;
-  font-size: 16px;
-  bottom: 44px;
+  font-size: 14px;
+  bottom: 37px;
   display: none;
 }
 
@@ -75,9 +80,19 @@
   position: absolute;
   background-color: var(--black-300);
   width: 20px;
+  height: 20px;
+  bottom: -3px;
+  left: 38px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.span-search-product {
+  position: absolute;
+    background-color: var(--black-300);
+    width: 20px;
     height: 20px;
-    bottom: -4px;
-    left: 49px;
+    bottom: -3px;
+    left: 43px;
     transform: rotate(45deg);
     z-index: -1;
 }
@@ -85,9 +100,10 @@
   position: absolute;
   background-color: var(--black-300);
   width: 20px;
-    height: 15px;
-    bottom: -4px;
-    left: 26px;
+  width: 15px;
+  height: 15px;
+  bottom: -4px;
+  left: 21px;
     transform: rotate(45deg);
     z-index: -1;
 }
@@ -100,13 +116,13 @@
 }
 .icon-tym{
   position: absolute;
-  left: 20px;
-    bottom: 22px;
-  padding: 1px 6px;
-  border-radius: 50%;
-  font-size: 15px;
-  color: var(--white);
-  background-color: var(--green);
+    left: 12px;
+    bottom: 19px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: var(--white);
+    background-color: var(--green);
 }
 .text-shop-detail a{
   margin-left: 5px;
