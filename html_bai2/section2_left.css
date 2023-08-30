@@ -3,17 +3,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
-
+    margin-bottom: 65px;
+    margin-top: 30px
 }
 .section1-main span{
-    font-size: var(--font45);
+    font-size: 36px;
+    font-weight: 500;
 }
 .item-small{
     display: flex;
     position: relative;
-    font-size: var(-font18) !important;
-    padding-top: 15px;
+    font-size: 14px;
+    padding-top: 8px;
 }
 .item-small a{
     text-decoration: none;
@@ -26,13 +27,14 @@
 .before-product::before{
     content: "/";
     position: absolute;
-    left: 86px;
+    left: 77px;
 }
 .section2-main{
     display: flex;
 }
 .section2-left{
-   flex-basis: 20%;
+ max-width: 300px;
+ min-width: 300px;
     padding: 0px 50px 0px 135px;
 }
 .section2-left a{
@@ -44,10 +46,12 @@
 .title-product-type{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .title-product-type a{
-        font-size: 28px;
+        font-size: 20px;
+        color: var(--black);
+    font-weight: var(--font-weight-600) !important;
 }
 .items-products li{ 
     list-style: none;
@@ -65,12 +69,9 @@
     justify-content: space-between;
 }
 .item-product-detail {
-    font-size: var(--font20) ;
+    font-size: var(--font16) ;
 }
-.title-product-type a {
-    color: var(--black);
-    font-weight: var(--font-weight-700) !important;
-}
+
 .title-product-type:hover a{
     color: var(--green);
 }
@@ -85,7 +86,7 @@
   }
   .line-hover-product{
     width: 0%;
-    border-bottom: 2px solid var(--black);
+    border-bottom: 1px solid var(--black);
     position: relative;
     left: -55px;
     top: 5px;
@@ -106,12 +107,12 @@
 .item-button-size button{
     background-color: var(--white);
     border: 1px solid var(--white-100);
-    width: 50px;
-    height: 40px;
-    margin-right: 20px;
-    font-size: 18PX;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    font-size: 14px;
     color: var(--black);
-    font-weight: bold;
+    font-weight: 700;
 }
 .button-active{
     background-color: var(--black) !important;
@@ -134,15 +135,15 @@
     padding-top: 20px;
 }
 .line-thought{
-        border-bottom: 3px solid var(--black-100);
+        border-bottom: 1px solid var(--black-100);
         position: relative;
         display: flex;
         justify-content: space-between;
 }
 .line-black{
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     position: absolute;
-    top: -1px;
+    top: 0;
     width: 100%;
     left: 0px;
 }
@@ -155,12 +156,19 @@
 .prices-items{
     margin-top: 15px;
     color: var(--black-200);
+    font-size: 14px;
+    font-weight: 400;
+}
+.price-gia{
+    color: black;
 }
 .item-price button{
-    margin-top: 30px;
-    padding: 15px 25px;
+    margin-top: 25px;
+    padding:0px 18px;
     border-radius: 5px;
-    font-size: var(--font20);
+    font-size: var(--font16);
+    line-height: 40px;
+    transition: all .3s cubic-bezier(.39, .575, .565, 1) 0s;
 }
 .button-apply{
     background-color: var(--black) !important;
@@ -223,8 +231,9 @@
 }
 .brand-item a {
     margin-left: 20px;
-    font-size: var(--font20);
+    font-size: var(--font16);
     color: var(--black-200);
+    font-weight: 400;
 }
 .ckb{
     position: absolute;
@@ -235,10 +244,10 @@
     
 }
 .checkbox{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 5px;
-    border: 1px solid var(--black-100);
+    border: 1px solid var(--white-100);
     background-color: white;
 }
 .brand-item input:checked  {

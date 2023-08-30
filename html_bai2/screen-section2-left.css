@@ -93,12 +93,21 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .section1-main{
+    margin-top: 0px;
+  }
+  .section1-main span{
+    padding-top: 40px;
+  }
   .section2-main {
     flex-direction: column;
     width: 100%;
   }
   .section2-left{
-    width: 95%;
+    max-width: 95% !important;
+  }
+  .ten-sanpham{
+      right: 30px;
   }
   .item-button-size ul{
     display: flex;
@@ -126,18 +135,28 @@
   margin-right: 15px;
   }
  
-  .section2-left{
-    width: 92%;
-  }
+  
 }
 @media screen and (max-width: 767px){
   .section2-left{
     width: 90%;
   }
+ 
 }
+
 @media screen and (max-width: 410px){
   .section2-left {
     width: 85%;
+  }
+}
+@media screen and (max-width: 361px){
+  .section2-left{
+  min-width: 85% !important;
+  }
+  @media screen and (max-width: 324px){
+    .item-button-size li{
+      padding-right: 5px;
+    }
   }
 }
 @media screen and (max-width: 320px){

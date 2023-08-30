@@ -16,9 +16,6 @@
     margin-right: 10px !important;
     height: 17px;
   }
-  .text-product-details a {
-    font-size: 25px;
-  }
   .price-product p {
     font-size: 20px;
   }
@@ -29,9 +26,7 @@
     padding-top: 15px;
   }
   .thu {
-    padding: 13px 35px;
-    font-size: 16px;
-    font-weight: var(--font-weight-600);
+    padding: 4px 35px;
   }
   .trai-tyms-tyms svg {
     width: 20px !important;
@@ -89,11 +84,22 @@
     padding: 5px 8px;
   }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
   .products-img{
-    width: 30%;
+    width: 28%;
   }
 }
+@media screen and (max-width: 1200px){
+  .products-img{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1100px){
+  .products-img{
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 1083px) {
   .products-img {
     width: 35%;
@@ -102,14 +108,13 @@
 @media screen and (max-width: 1024px) {
   .products-img {
     width: 45%;
-    max-height: 290px;
   }
   .text-product-details {
     padding-top: 5px !important;
     padding-left: 30px;
   }
   .thu {
-    padding: 13px 24px;
+    padding: 2px 24px;
   }
   .list-button-products-detail button {
     margin-right: 10px;
@@ -125,12 +130,12 @@
   }
  
 .text-product-details{
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 }
 @media screen and (max-width: 992px){
   .products-img{
-    width: 24%;
+    width: 25%;
   }
 }
 @media screen and (max-width: 845px){
@@ -141,19 +146,25 @@
 @media screen and (max-width: 767px){
   .top-bar{
     flex-direction: column;
+    align-items: center;
+  }
+  .menu-bar-left{
+    padding: 15px 0px;
+  }
+  .ten-sanpham{
+    right: 31%;
   }
   .top-bar-choose , .ten-sanpham {
     width: 300px;
   }
-  .menu-bar-right{
-    margin-right: 75px;
-  }
+
   .text-lorem , .list-button-products-detail{
     display: none;
   }
   .items-products-detail{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .text-product-details a ,  .price-product p{
     font-size: 16px;
@@ -167,7 +178,7 @@
   }
   .products-img{
     width: 90% !important;
-    max-height: 450px;
+    height: auto;
   }
   .section2-list-products{
     display: grid;
@@ -177,16 +188,8 @@
   }
 
 }
-@media screen and (max-width: 662px){
-  .menu-bar-right {
-    margin-right: 137px;
-}
-}
-@media screen and (max-width: 500px){
-  .menu-bar-right {
-    margin-right: 175px;
-}
-}
+
+
 @media screen and (max-width: 481px){
   .section2-list-products{
     grid-template-columns: 1fr;

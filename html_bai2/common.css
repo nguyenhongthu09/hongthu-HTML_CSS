@@ -132,18 +132,18 @@ border-bottom: 3px solid black;
 }
 .text-shop-detail{
   position: absolute;
-   font-size: 25px !important;
+   font-size: 20px !important;
    padding-left: 10px;
+   font-weight: 400;
 }
 .link-boder-gray {
   width: 0%;
-  border-bottom: 2px solid var(--black);
+  border-bottom: 1px solid var(--black);
   position: relative;
-  right: 25px;
+  right: 9px;
   top: 5px;
   transform: translateX(8%);
   transition: all 0.2s;
-  margin-left: 10px;
 }
 .line-hover a:hover .link-boder-gray {
   width: 100%;
@@ -161,8 +161,8 @@ border-bottom: 3px solid black;
   box-shadow: 0px 10px 25px rgba(71, 92, 133, 0.1);
 }
 .handle{
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
@@ -170,8 +170,9 @@ border-bottom: 3px solid black;
 }
 .item-color-detail{
   list-style: none;
-  width: 30px;
-  height: 30px;
-border-radius: 8px;
-margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    margin-right: 10px;
+    box-shadow: 0px 2px 4px rgb(71 92 133 / 20%);
 }

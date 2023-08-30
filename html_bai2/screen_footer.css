@@ -1,3 +1,14 @@
+@media screen and (max-width: 1599px){
+    .footer-top{
+        padding: 60px 30px;
+    }    
+    .footer-input-form{
+        width: 200px;
+    }
+    .footer-items-collection{
+        max-width: 200px;
+    }
+}
 @media screen and (max-width: 1400px){
     .footer-bottom{
         padding: 10px 25px 10px 25px;
@@ -52,6 +63,12 @@
     }
     .footer-items-collection{
         text-align: center;
+        max-width: 100% !important;
+    }
+    .footer-input-form{
+        max-width: 100% !important;
+        width: 100%;
+        height: auto;
     }
     .footer-lg-992 .col-lg-2{
         padding: 15px 0px;
