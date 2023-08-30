@@ -78,9 +78,7 @@
     color: green;
     cursor: pointer;
 }
-.thu:hover svg{
-    
-}
+
 
 .item-product-hover:hover .line-hover-product {
     width: 100%;

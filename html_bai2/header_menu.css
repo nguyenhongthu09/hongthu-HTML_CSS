@@ -6,13 +6,16 @@
   padding: 10px 0px;
 }
 .menu-top-sticky{
+  width: 100%;
+  position: relative;
+  z-index:9999999;
     display: contents;
 }
 .header-menu-bottom {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 99999999;
+  z-index: 99999;
   box-shadow: 0px 10px 25px rgba(71, 92, 133, 0.1);
 
 }

@@ -40,6 +40,14 @@
     transform: rotate(180deg);
     transition: all 0.3s ease;
 }
+
+.dongtag svg:hover{
+    transform: rotate(180deg);
+    transition: all 0.3s ease;
+}
+.woman-list-item:hover svg{
+    stroke: var(--green) !important;
+}
 #top-bar-sale{
     display: none;
 }
@@ -52,4 +60,114 @@
 }
 #top-bar-sale:checked ~ .top-bar-sale-off{
     display: none;
+}
+#woman {
+    display: none;
+
+}
+.woman-lb{
+    cursor: pointer;
+}
+#woman:checked ~ .woman-list-items{
+    display: block;
+}
+.woman-list-items{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    /* min-width: 320px; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.woman-list-item{
+    width: 16.5%;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgba(71, 92, 133, 0.1);
+    height: 100vh;
+}
+.woman-list-item ul{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+}
+.woman-list-item li{
+    list-style: none;
+    line-height: 40px;
+}
+.woman-list-item a {
+    text-decoration: none;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+.dongtag {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99999;
+    left: 14%;
+    top: 4%;
+    border-radius: 50%;
+    background-color: var(--white-100);
+}
+.dongtag svg{
+    padding: 1px 3px;
+}
+
+#item-woman{
+    display: none;
+}
+.items-list-womans a{
+    font-size: 16px !important;
+    color: #121212 !important;
+    font-weight: 400 !important;
+}
+.items-list-womans{
+    display: none;
+}
+
+#item-woman:checked ~ .items-list-womans{
+    display: block;
+}
+.item-list-woman-detail label{
+        font-size: 24px;
+        font-weight: 600;
+        cursor: pointer;
+}
+.items-list-womans ul{
+    padding: 8px;
+}
+.list-woman-items li{
+    line-height: 17px;
+}
+.tuthu:hover{
+    color: var(--green);
+}
+.hoverthune{
+    color: var(--black-100) !important;
+    font-weight: 400 !important;
+}
+.hoverthune:hover .line-hover-products{
+    width: 100%;
+}
+.line-hover-products{
+    width: 0%;
+    border-bottom: 1px solid var(--black);
+    transition: all 0.3s ease;
+  }
+#item-clothing{
+    display: none;
+}
+#item-clothing:checked ~ .clothing-items{
+    display: block;
+}
+#item-mans{
+    display: none;
+}
+#item-mans:checked ~ .man-items{
+    display: block;
 }
