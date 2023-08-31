@@ -37,7 +37,7 @@
         width: 20px;
         height: 20px;
         right: 10%;
-        top: 45%;
+        top: 22%;
     }
     .list-icon-connect img {
         width: 17px;
@@ -77,7 +77,8 @@
         max-width: 300px;
     }
     .footer-input-form input{
-        width: 100%;
+        width: 95%;
+        padding: 11px 0px 11px 3px;
     }
     .thu1{
         width: 100%;
