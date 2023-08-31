@@ -430,9 +430,11 @@
     transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
 }
 
+
 .thuthu:hover .thu{
     background-color: #0c8c6c;
     cursor: pointer;
+   
 }
 .list-button-products-detail button:nth-child(2){
         padding: 15px 15px;
