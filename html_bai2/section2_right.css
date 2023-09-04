@@ -434,8 +434,19 @@
 .thuthu:hover .thu{
     background-color: #0c8c6c;
     cursor: pointer;
-   
 }
+
+#gio-hang-to-cart{
+    position: fixed;
+    background-color: #0c8c6c;
+    width: 27%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    z-index: 1000000;
+    display: none;
+}
+
 .list-button-products-detail button:nth-child(2){
         padding: 15px 15px;
         border-radius: 5px;
